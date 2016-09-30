@@ -38,5 +38,4 @@ try:
     dbh.commit()
 except:
     print "Failure to connect"
-    exit()
 print "New record successfully added to database"
