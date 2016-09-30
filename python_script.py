@@ -28,7 +28,7 @@ db_server  = ""
 db_login   = ""
 db_pass    = ""
 db_name    = ""
-table_name = ""  # the same name that you specified in the script create_table.
+table_name = "" 
 
 try:
     dbh = MySQLdb.connect(db_server, db_login, db_pass, db_name)
